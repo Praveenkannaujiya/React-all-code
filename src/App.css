@@ -36,3 +36,86 @@
     transform: rotate(360deg);
   }
 }
+.m-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.l-content{
+  height: 500px;
+  width: 350px;
+}
+.calc{
+  width: 320px;
+  margin: 100px auto;
+}
+#answer{
+  background-color: #e2e2e2;
+  padding: 10px;
+  font-size: 35px;
+  width: 295px;
+  height: 45px;
+  text-align: right;
+  border: 5px solid black;
+}
+.button{
+  width: 80px;
+  height: 80px;
+  background: black;
+  color: aqua;
+  font-size: 35px ;
+  border: 2px solid yellow;
+  float: left;
+}
+.button1{
+  width: 160px;
+}
+.active{
+  color: aqua;
+}
+li {
+  text-align: right;
+  display: inline-block;
+  width: 150px;
+}
+.btn{
+  width:  100px;
+  height: 50px;
+  font-size: 16px;
+  background: black;
+  color: yellow;
+  border-radius: 8px;
+ 
+}
+.maindiv{
+  width: 100vw;
+  height: 50vh;
+  display: grid;
+  place-items: center;
+}
+
+.cardpost{
+  margin: 20px;
+  display: inline-block;
+  
+}
+.muidiv{
+  color: black;
+  background-color:white;
+  border: 2px solid black;
+  display: inline-block;
+ margin: 30px 70px;
+  width: 22rem;
+  box-shadow: 0px 10px 20px , rgba(4, 5, 5, 0.40) 0px 6px 6px ;
+
+}
+.muidiv:hover{
+  box-shadow: 0px 35px 18px -8px rgba(43, 187, 239, 0.934);
+  transform: scale(1.09,1.09);
+background-color: yellow;
+
+}
+.nbn{
+  color: gray;
+}
