@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import './AnkitEcommercePro/Ecommer.css'
 import EcommerApp from './AnkitEcommercePro/EcommerApp'
 // import Post1 from './Post';
 // import Postupdate from'./Postupdate'
